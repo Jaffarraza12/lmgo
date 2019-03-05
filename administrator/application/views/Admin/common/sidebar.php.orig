@@ -1,0 +1,153 @@
+<div class="page-sidebar nav-collapse collapse">
+<!-- BEGIN SIDEBAR MENU -->
+    <ul>
+        <li>
+            <!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+            <div class="sidebar-toggler hidden-phone"></div>
+            <!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+        </li>
+        <li class="avatarCssLi">
+            <!-- BEGIN AVATAR -->
+            <div class="avatarCss">
+                <img style="width:180px;border-width:0px;" src="<?php echo base_url(); ?>assets/img/AvatarLarge.png" id="ctl00_AvatarImg">
+            </div>
+            <!-- END AVATAR-->
+        </li>
+        <li>
+            <?php echo anchor("Admin/index", "Dashboard"); ?>
+        </li>
+
+        <li id="mnuPages">
+            <a href="javascript:;">
+                <i class="icon-file"></i>
+                <span class="title">Pages</span>
+                <span class="arrow"></span>
+            </a>
+
+            <ul class="sub-menu">
+                <li ><?php echo anchor("Pages/Select", "Add New Page"); ?>
+                <li ><?php echo anchor("Pages/View?q=services", "Manage Services"); ?>
+                <li ><?php echo anchor("Pages/View?q=footer1", "Manage Footer Col1"); ?>
+                <li ><?php echo anchor("Pages/View?q=footer2", "Manage Footer Col2"); ?>
+                <li ><?php echo anchor("Pages/View?q=misc", "Manage Site Pages"); ?>
+            </ul>
+        </li>
+
+        <li id="mnuNews">
+            <a href="javascript:;">
+                <i class="icon-comment-alt"></i>
+                <span class="title">News</span>
+                <span class="arrow "></span>
+            </a>
+
+            <ul class="sub-menu">
+                <li ><?php echo anchor("News/Add", "Add News"); ?>
+                <li ><?php echo anchor("News/View", "Manage News"); ?>
+            </ul>
+        </li>
+
+        <li id="mnuEvents">
+            <a href="javascript:;">
+                <i class="icon-comment-alt"></i>
+                <span class="title">Events</span>
+                <span class="arrow "></span>
+            </a>
+
+            <ul class="sub-menu">
+                <li ><?php echo anchor("Events/Add", "Add Event"); ?>
+                <li ><?php echo anchor("Events/View", "Manage Events"); ?>
+            </ul>
+        </li>
+
+        <li id="mnuDirectory">
+            <a href="javascript:;">
+                <i class="icon-comment-alt"></i>
+                <span class="title">Directory</span>
+                <span class="arrow "></span>
+            </a>
+
+            <ul class="sub-menu">
+                <li><?php echo anchor("Shops/Add", "Add New Shop"); ?>
+                   <li><?php echo anchor("Shops/view", "Manage Shop"); ?>
+             	   <li><?php echo anchor("Owners/Add", "Add Owners"); ?>
+                   <li><?php echo anchor("Owners/View", "Manage Owners"); ?>
+                   <li><?php echo anchor("Categories/View", "View Categoires"); ?>
+                   
+             </ul>
+        </li>
+
+        <li id="mnuMedia">
+            <a href="javascript:;">
+                <i class="icon-file"></i>
+                <span class="title">Media</span>
+                <span class="arrow"></span>
+            </a>
+
+            <ul class="sub-menu">
+                <li ><?php echo anchor("Work/View", "Media List"); ?>
+              
+            </ul>
+        </li>
+
+
+
+        <li id="mnuCareers">
+            <a href="javascript:;">
+                <i class="icon-sitemap"></i>
+                <span class="title">Careers</span>
+                <span class="arrow "></span>
+            </a>
+
+            <ul class="sub-menu">
+                <li ><?php echo anchor("Careers/Add", "Add New Career"); ?>
+                <li ><?php echo anchor("Careers/View", "Manage Careers"); ?>
+                <li ><?php echo anchor("Careers/ViewResume", "View Resume"); ?>
+            </ul>
+        </li>
+
+        <li id="mnuSliders">
+            <a href="javascript:;">
+                <i class="icon-sitemap"></i>
+                <span class="title">Config</span>
+                <span class="arrow "></span>
+            </a>
+
+            <ul class="sub-menu">
+                <li ><?php echo anchor("Config/Sliders", "Sliders"); ?>
+                <li ><?php echo anchor("Config/HomePage", "Home Page"); ?>
+                <li ><?php echo anchor("Config/HomePage", "Manage Social Networks"); ?>
+            </ul>
+        </li>
+
+        <li id="mnuSeo">
+            <?php echo anchor("Config/SEO", "<i class='icon-cogs'></i>SEO"); ?>
+        </li>
+
+        <li id="mnuContact">
+            <?php echo anchor("Contact/View", "<i class='icon-envelope'></i>Contact Queries"); ?>
+        </li>
+
+        <li id="mnuSubscription">
+            <?php echo anchor ('Subscription/View', '<i class="icon-envelope"></i><span class="title">Subscription</span>'); ?>
+        </li>
+
+        <li id="mnuPassword">
+        
+         <a href="javascript:;">
+                <i class="icon-file"></i>
+                <span class="title">Setting</span>
+                <span class="arrow"></span>
+            </a>
+
+            <ul class="sub-menu">
+                <li ><?php echo anchor("Config/setting", "General Setting"); ?>
+                <li ><?php echo anchor("Config/Password", "Change Password"); ?>
+                <li ><?php echo anchor("Social/View", "Social Network"); ?>
+            </ul>
+           
+            
+        </li>
+
+    </ul>
+
+</div>

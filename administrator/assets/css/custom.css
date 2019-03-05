@@ -1,0 +1,43 @@
+.help-inline { display:none !important; }
+.glyphicons i:before { font:18px/1em 'Glyphicons' !important; }
+.glyphicons { padding-top:10px !important; }
+
+.imgGal .pic,.pic {
+    position:relative;
+    float:left;
+    border:3px solid #ccc;
+    margin:10px;
+    display:block;
+    height:auto;
+	overflow:hidden;
+}
+
+.imgGal .pic a {
+    position: absolute;
+    right:0;
+    top:0;
+    width:20px;
+    padding:0;
+    height:12px;
+    display:none;
+}
+
+.c { text-align:center; }
+.r { text-align:right; }
+
+.glyphicons b { display:none; }
+
+.delworkimg {
+	background: none repeat scroll 0 0 #FF0000;
+    bottom: -30px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    opacity: 0.6;
+    padding:3px;
+    position: absolute;
+    text-align: center;
+    width: 192px;
+}
+

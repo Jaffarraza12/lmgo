@@ -1,0 +1,27 @@
+.categorylist
+{
+	list-style:none;
+	width:400px;
+	float:left;	
+	
+}
+
+.categorylist li
+{
+	clear:both;	
+	
+}
+
+.categorylist li span
+{
+	font-size:13px;
+	margin-top:-1px;
+	
+}
+
+
+.categorylist li input[type="checkbox"] {
+	
+	float:left;
+	width:60px;
+}

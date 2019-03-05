@@ -1,0 +1,1 @@
+<marquee behavior="scroll" direction="right" style="font-family: arabic_regular;padding: 15px 0 0 0;"> للشباب الراغبين في الزواج و المشاركة في عرس زايد العربي  التقديم عبر الاميل التالي  info@arabfamilyorganizatio.ae - rihabna2@hotmail.com  وتعبئة الاستمارة الخاصة بذلك</marquee>

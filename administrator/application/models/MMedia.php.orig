@@ -1,0 +1,246 @@
+<?php
+
+class MMedia extends CI_Model {
+
+    function addMedia($data)
+    {
+
+
+        $arr = array (
+            'mediaid' => $data['mediaid'],
+			'image' => $data['image'],
+			'image_large' => $data['image_large'],
+			
+			
+        );
+
+        if ($this->db->insert('media_data', $arr))
+        {
+            return 1;
+           
+        }
+        else
+        {
+            return 0;
+        }
+
+    }
+
+    function editMedia($data)
+    {
+
+
+        $sliderImageId = 0;
+        if (isset($data['sliderImage']))
+        {
+            if (strlen($data['sliderImage']) > 0)
+                $sliderImageId = $this->MUtils->saveImagePath($data['sliderImage']);
+        }
+
+        $smallImageId = 0;
+        if (isset($data['smallImage']))
+        {
+            if (strlen($data['smallImage']) > 0)
+                $smallImageId = $this->MUtils->saveImagePath($data['smallImage']);
+        }
+
+        $arr = array(
+            'url' => $data['url'],
+            'category' => $data['category'],
+            'seo_url' => str_replace(" ", "_", $data['seo_url']),
+            'show_on_homepage' => $data['homepage']
+        );
+
+        echo "small Image I d : " . $smallImageId;
+        if ($smallImageId > 0)
+            $arr['image'] = $smallImageId;
+
+        if ($sliderImageId > 0)
+            $arr['slider_image'] = $sliderImageId;
+
+        $this->db->where('id', $data['wid']);
+        $this->db->update('Media', $arr);
+
+        foreach ($data['Languages'] as $lang)
+        {
+            $code = $lang->code;
+
+            $arr = array(
+                'title' => $data['title_' . $code] ,
+                'long_desc' => $data['editor_' . $code] ,
+                'meta_title' => $data['meta_title_' . $code] ,
+                'meta_keywords' => $data['meta_keywords_' . $code] ,
+                'meta_desc' => $data['meta_desc_' . $code],
+                'slider_text' => $data['slider_text_' . $code],
+                'slider_anchor' => $data['slider_anchor_' . $code],
+                'slider_url' => $data['slider_url_' . $code],
+                'mts' => time()
+            );
+
+            $this->db->where('id', $data['wd_id_' . $code]);
+            $this->db->update('Media_data', $arr);
+        }
+
+        return 1;
+
+    }
+
+    function loadAllAlbum($ENUM = 'images')
+    {
+   		$q = " SELECT *,(SELECT COUNT(*) FROM media_data WHERE mediaid = m.`mediaid` ) AS 'totalimages' FROM media m WHERE type = '".$ENUM."' ";
+        $results = $this->db->query($q);
+        return $results;
+    }
+	
+	 function AddAlbum($data)
+	 {
+		$arr = array(
+			'eng_title' => $data['eng_title'],
+			'ar_title' => $data['ar_title'],
+			'type' => $data['type'],
+			'icon' => $data['icon'],
+			'eng_description' => $data['eng_description'],
+            'arb_description' => $data['arb_description']
+		);
+		
+		
+		if($this->db->insert('media',$arr))
+			return 1;
+		else
+			return 0;		 
+		 
+	}
+	function ModifyAlbum($data)
+	 {
+		$arr = array(
+			'eng_title' => $data['eng_title'],
+			'ar_title' => $data['ar_title'],
+			'type' => $data['type'],
+			'icon' => $data['icon'],
+			'eng_description' => $data['eng_description'],
+            'arb_description' => $data['arb_description']
+		);
+		
+		$this->db->where('mediaid',$data['mediaid']);	
+		if($this->db->update('media',$arr))
+			return 1;
+		else
+			return 0;		 
+		 
+	}
+	 function AddVideo($data)
+	 {
+		$arr = array(
+			'title' => $data['title'],
+			'url' => $data['link'],
+			'mediaid' => $data['mediaid'],
+			
+		);
+		
+		
+		if($this->db->insert('media_data',$arr))
+			return 1;
+		else
+			return 0;		 
+		 
+	}
+	
+	function loadImagesById($mediaid)
+    {
+   		$q = " SELECT * FROM media_data WHERE mediaid = '".$mediaid."' ";
+        $results = $this->db->query($q);
+        return $results;
+    }
+	
+	function loadVideosById($mediaid)
+    {
+   		$q = " SELECT * FROM media_data WHERE mediaid = '".$mediaid."' ";
+        $results = $this->db->query($q);
+        return $results;
+    }
+	
+	
+	function loadAlbumById($mediaid)
+    {
+   		$q = " SELECT * FROM media WHERE mediaid = '".$mediaid."' ";
+        $results = $this->db->query($q);
+        return $results;
+    }
+	 function deleteAlbum($id)
+    {
+        $this->db->where('mediaid', $id);
+		if ($this->db->delete('media'))
+        {
+        		$this->db->where('mediaid', $id);
+				$this->db->delete('media_data');
+		       return 1;
+         }
+        else
+            return 0;
+    }
+    function deleteImage($id)
+    {
+        $this->db->where('mdid', $id);
+        if ($this->db->delete('media_data'))
+        {
+                return 1;
+         }
+        else
+            return 0;
+    }
+
+    function sortMedia($ids)
+    {
+        $arr = explode(",", $ids);
+        $num = 0;
+        foreach ($arr as $item)
+        {
+            $this->db->where('id', $item);
+            $this->db->update('Media', array('sort_order' => $num++));
+        }
+    }
+	
+	
+	function doMediaUpload($field, $width, $height, $resize=false)
+    {
+        //Configure upload.
+        $this->upload->initialize(array(
+            "upload_path"   => "../uploads/media/",
+            "allowed_types" => "gif|jpg|png",
+        ));
+
+
+        //Perform upload.
+        if($this->upload->do_upload($field)){
+
+            $fileData = $this->upload->data();
+
+            if ($resize == true)
+            {
+                $width = $fileData['image_width'];
+                $height = $fileData['image_height'];
+            }
+
+
+            $img_cfg_thumb['image_library'] = 'gd2';
+            $img_cfg_thumb['source_image'] = "../uploads/media/" . $fileData['raw_name'] . $fileData['file_ext'];
+            $img_cfg_thumb['maintain_ratio'] = FALSE;
+            $img_cfg_thumb['new_image'] = "../uploads/media/" . $fileData['raw_name'] . $fileData['file_ext'];
+            $img_cfg_thumb['width'] = $width;
+            $img_cfg_thumb['height'] = $height;
+            $img_cfg_thumb['quality'] = 90;
+            print_r($img_cfg_thumb);
+            $this->load->library('image_lib');
+            $this->image_lib->initialize($img_cfg_thumb);
+            $this->image_lib->resize();
+
+
+            return $fileData['raw_name'] . $fileData['file_ext'];
+        }
+        else
+        {
+            return "";
+        }
+    }
+	
+}

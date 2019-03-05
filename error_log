@@ -1,0 +1,36 @@
+[21-Feb-2018 06:18:23 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Feb-2018 06:18:30 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[02-Mar-2018 04:10:44 America/Chicago] PHP Fatal error:  Call to a member function create_links() on null in /home/jafarraz/public_html/cms/application/views/common/grid.php on line 17
+[06-Mar-2018 06:51:03 America/Chicago] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home/jafarraz/public_html/cms/application/controllers/home.php on line 61
+[06-Mar-2018 06:51:18 America/Chicago] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home/jafarraz/public_html/cms/application/controllers/home.php on line 61
+[06-Mar-2018 06:52:09 America/Chicago] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home/jafarraz/public_html/cms/application/controllers/home.php on line 61
+[06-Mar-2018 06:52:11 America/Chicago] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home/jafarraz/public_html/cms/application/controllers/home.php on line 61
+[06-Mar-2018 06:52:12 America/Chicago] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home/jafarraz/public_html/cms/application/controllers/home.php on line 61
+[06-Mar-2018 06:52:13 America/Chicago] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home/jafarraz/public_html/cms/application/controllers/home.php on line 61
+[06-Mar-2018 06:52:15 America/Chicago] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home/jafarraz/public_html/cms/application/controllers/home.php on line 61
+[06-Mar-2018 06:52:17 America/Chicago] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home/jafarraz/public_html/cms/application/controllers/home.php on line 61
+[06-Mar-2018 06:52:19 America/Chicago] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home/jafarraz/public_html/cms/application/controllers/home.php on line 61
+[06-Mar-2018 06:52:21 America/Chicago] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home/jafarraz/public_html/cms/application/controllers/home.php on line 61
+[06-Mar-2018 06:52:28 America/Chicago] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home/jafarraz/public_html/cms/application/controllers/home.php on line 61
+[06-Mar-2018 06:52:30 America/Chicago] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home/jafarraz/public_html/cms/application/controllers/home.php on line 61
+[06-Mar-2018 06:52:42 America/Chicago] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home/jafarraz/public_html/cms/application/controllers/home.php on line 61
+[06-Mar-2018 06:52:44 America/Chicago] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home/jafarraz/public_html/cms/application/controllers/home.php on line 61
+[06-Mar-2018 06:52:53 America/Chicago] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home/jafarraz/public_html/cms/application/controllers/home.php on line 61
+[06-Mar-2018 06:54:33 America/Chicago] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home/jafarraz/public_html/cms/application/controllers/home.php on line 61
+[06-Mar-2018 06:54:51 America/Chicago] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home/jafarraz/public_html/cms/application/controllers/home.php on line 61
+[06-Mar-2018 06:55:18 America/Chicago] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home/jafarraz/public_html/cms/application/controllers/home.php on line 61
+[06-Mar-2018 06:55:41 America/Chicago] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home/jafarraz/public_html/cms/application/controllers/home.php on line 45
+[06-Mar-2018 06:56:13 America/Chicago] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home/jafarraz/public_html/cms/application/controllers/home.php on line 45
+[06-Mar-2018 06:56:19 America/Chicago] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home/jafarraz/public_html/cms/application/controllers/home.php on line 61
+[06-Mar-2018 06:56:30 America/Chicago] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home/jafarraz/public_html/cms/application/controllers/home.php on line 61
+[06-Mar-2018 09:08:02 America/Chicago] PHP Fatal error:  Class 'Mcontent' not found in /home/jafarraz/public_html/cms/system/core/Loader.php on line 303
+[06-Mar-2018 22:06:19 America/Chicago] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home/jafarraz/public_html/cms/application/models/mpage.php on line 22
+[06-Mar-2018 22:06:26 America/Chicago] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home/jafarraz/public_html/cms/application/models/mpage.php on line 22
+[08-Mar-2018 01:21:35 America/Chicago] PHP Fatal error:  Call to a member function view() on null in /home/jafarraz/public_html/cms/application/controllers/home.php on line 91
+[08-Mar-2018 01:21:37 America/Chicago] PHP Fatal error:  Call to a member function view() on null in /home/jafarraz/public_html/cms/application/controllers/home.php on line 91
+[08-Mar-2018 01:21:38 America/Chicago] PHP Fatal error:  Call to a member function view() on null in /home/jafarraz/public_html/cms/application/controllers/home.php on line 91
+[08-Mar-2018 01:21:39 America/Chicago] PHP Fatal error:  Call to a member function view() on null in /home/jafarraz/public_html/cms/application/controllers/home.php on line 91
+[08-Mar-2018 03:35:38 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/jafarraz/public_html/cms/application/models/mpage.php on line 24
+[08-Mar-2018 03:46:42 America/Chicago] PHP Fatal error:  Class 'Mutils' not found in /home/jafarraz/public_html/cms/system/core/Loader.php on line 303
+[08-Mar-2018 07:28:25 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/jafarraz/public_html/cms/application/views/common/table.php on line 64
+[30-Dec-2018 14:52:55 Etc/GMT] PHP Fatal error:  Call to undefined method CI_DB_mysqli_result::rows() in /home/operaartproducti/public_html/demo/application/controllers/home.php on line 269

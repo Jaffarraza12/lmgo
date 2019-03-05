@@ -1,0 +1,16 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+RewriteRule ^city/(.*)/(.*)$ index.php?cityS=$1 [L]
+
+RewriteRule ^ads/(.*)/(.*)/(.*)/(.*)$ viewAds.php?subcategory=$3 [L]
+RewriteRule ^ads/(.*)/(.*)/(.*)$ viewAds.php?category=$2 [L]
+RewriteRule ^subads/(.*)/(.*)/(.*)$ viewsubAds.php?subcategory=$2 [L]
+
+
+RewriteRule ^bycat/(.*)/(.*)/(.*)/(.*)/(.*)$ viewAds.php?cityS=$1subcategory=$4 [L]
+RewriteRule ^bycat/(.*)/(.*)/(.*)/(.*)$ viewAds.php?cityS=$1category=$3 [L]
+
+
+RewriteRule ^detail/(.*)/(.*)$ adDetail.php?id=$1 [L]
+</IfModule>
