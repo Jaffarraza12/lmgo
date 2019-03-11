@@ -7,7 +7,7 @@
             <div class="banner-text">
                 <div class="container">
                     <div class="text-holder">
-                        <h2 class="title"> Award Winner 2018</h2>
+                        <h2 class="title main_heading"> Award Winner 2018</h2>
                         <div class="btn-holder"><a href="#" class="slider-btn">Find out more</a></div>
                     </div>
                 </div>
