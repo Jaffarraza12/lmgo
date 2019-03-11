@@ -159,7 +159,7 @@ class Home extends CI_Controller
 
             if ($page_content == []) {
                 $this->load->helper('url');
-               // redirect(base_url().'home', 'refresh');
+                redirect(base_url().'home', 'refresh');
             }
 
             $data['page'] = 'common/page';
