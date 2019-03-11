@@ -48,10 +48,14 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
+/*$db['default']['hostname'] = 'localhost';
 $db['default']['username'] = 'root';
 $db['default']['password'] = '';
-$db['default']['database'] = 'lmgo';
+$db['default']['database'] = 'lmgo';*/
+$db['default']['hostname'] = 'localhost';
+$db['default']['username'] = 'imacmc_db';
+$db['default']['password'] = 'karachi2015%%';
+$db['default']['database'] = 'imacmc_db';
 
 $db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = '';

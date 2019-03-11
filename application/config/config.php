@@ -15,7 +15,8 @@
 |
 */
 //$config['base_url']	= ';
-$config['base_url']	= 'http://localhost/lmgo/';
+//$config['base_url'] = 'http://localhost/lmgo/';
+$config['base_url'] = 'http://imacmc.com/demo/';
 
 /*
 |--------------------------------------------------------------------------

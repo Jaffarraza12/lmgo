@@ -2,216 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f989473a-d5ea-4b66-b57d-fd72e3d16e95" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/assets/stylesheet/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/assets/stylesheet/front.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/assets/stylesheet/jquery.bxslider.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/assets/stylesheet/slick.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/assets/stylesheet/style.min(1).css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/site.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/rsh/001.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/rsh/002.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/rsh/003.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/rsh/004.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/rsh/005.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/rsh/006.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/rsh/007.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/rsh/008.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/rsh/009.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/rsh/010.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/rsh/011.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/rsh/012.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/rsh/013.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/rsh/014.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/rsh/015.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/rsh/016.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/rsh/017.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/rsh/gob_logo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/components/google-map.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/components/google-map.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/components/masonry.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/components/masonry.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/components/owl.carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/components/owl.carousel.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/components/sub-menu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/components/swiper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/components/swiper.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/components/wow.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/components/wow.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery-1.9.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery-3.3.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery.colorbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery.nivo.slider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery.nivo.slider.pack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/layout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/layout.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/modernizr-2.8.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/nivo-active.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/owl.carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/plugins.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/popper.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/slick-1.8.1/slick-1.8.1/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/slick-1.8.1/slick-1.8.1/CONTRIBUTING.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/slick-1.8.1/slick-1.8.1/ISSUE_TEMPLATE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/slick-1.8.1/slick-1.8.1/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/slick-1.8.1/slick-1.8.1/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/slick-1.8.1/slick-1.8.1/README.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/slick-1.8.1/slick-1.8.1/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/slick-1.8.1/slick-1.8.1/component.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/slick-1.8.1/slick-1.8.1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/slick-1.8.1/slick-1.8.1/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/slick-1.8.1/slick-1.8.1/slick.jquery.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/slick-1.8.1/slick-1.8.1/slick/ajax-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/slick-1.8.1/slick-1.8.1/slick/config.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/slick-1.8.1/slick-1.8.1/slick/fonts/slick.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/slick-1.8.1/slick-1.8.1/slick/fonts/slick.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/slick-1.8.1/slick-1.8.1/slick/fonts/slick.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/slick-1.8.1/slick-1.8.1/slick/fonts/slick.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/slick-1.8.1/slick-1.8.1/slick/slick-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/slick-1.8.1/slick-1.8.1/slick/slick-theme.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/slick-1.8.1/slick-1.8.1/slick/slick-theme.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/slick-1.8.1/slick-1.8.1/slick/slick.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/slick-1.8.1/slick-1.8.1/slick/slick.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/slick-1.8.1/slick-1.8.1/slick/slick.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/slick-1.8.1/slick-1.8.1/slick/slick.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/slick-1.8.1/slick-1.8.1/slick/slick.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/slick.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/.idea/donecms.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/01(1).jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/01(2).jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/02(1).jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/02(2).jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/03(1).jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/03(2).jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/03.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/04(1).jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/04.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/05(1).jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/05.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/06(1).jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/a1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/a2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/a3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/a4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/a5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/a6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/a7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/a8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/bootstrap.min.js.download" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/brand1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/brand2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/brand3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/brand4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/brand5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/brand6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/cart1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/cart2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/jquery-3.3.1.min.js.download" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/jquery.nivo.slider.pack.js.download" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/logo-footer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/main.js.download" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/modernizr-2.8.3.min.js.download" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/nivo-active.js.download" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/payment-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/plugins.js.download" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/popper.min.js.download" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/slider1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/slider2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/Home Business __ wright_files/slider3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/css/color/skin-blue.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/css/color/skin-cyan.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/css/color/skin-default.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/css/custom.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/css/images/controls.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/css/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/css/layout-rtl.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/css/layout.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/css/nivo-slider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/css/owl.carousel.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/css/owl.theme.default.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/css/plugins.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/css/responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/css/shortcode.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/css/skin-blue-grey.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/css/skin-gold.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/css/style-customizer.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/dev7logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/nemo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/opera pdf.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/toystory.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/up.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/walle.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/js/jquery-1.9.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/js/jquery-3.3.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/js/jquery.nivo.slider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/js/jquery.nivo.slider.pack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/js/modernizr-2.8.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/js/nivo-active.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/js/plugins.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/js/popper.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/js/slick-1.8.1.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/js/slick-1.8.1/slick-1.8.1/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/js/slick-1.8.1/slick-1.8.1/CONTRIBUTING.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/js/slick-1.8.1/slick-1.8.1/ISSUE_TEMPLATE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/js/slick-1.8.1/slick-1.8.1/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/js/slick-1.8.1/slick-1.8.1/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/js/slick-1.8.1/slick-1.8.1/README.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/js/slick-1.8.1/slick-1.8.1/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/js/slick-1.8.1/slick-1.8.1/component.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/js/slick-1.8.1/slick-1.8.1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/js/slick-1.8.1/slick-1.8.1/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/js/slick-1.8.1/slick-1.8.1/slick.jquery.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/js/slick-1.8.1/slick-1.8.1/slick/ajax-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/js/slick-1.8.1/slick-1.8.1/slick/config.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/js/slick-1.8.1/slick-1.8.1/slick/fonts/slick.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/js/slick-1.8.1/slick-1.8.1/slick/fonts/slick.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/js/slick-1.8.1/slick-1.8.1/slick/fonts/slick.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/js/slick-1.8.1/slick-1.8.1/slick/fonts/slick.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/js/slick-1.8.1/slick-1.8.1/slick/slick-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/js/slick-1.8.1/slick-1.8.1/slick/slick-theme.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/js/slick-1.8.1/slick-1.8.1/slick/slick-theme.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/js/slick-1.8.1/slick-1.8.1/slick/slick.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/js/slick-1.8.1/slick-1.8.1/slick/slick.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/js/slick-1.8.1/slick-1.8.1/slick/slick.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/js/slick-1.8.1/slick-1.8.1/slick/slick.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/js/slick-1.8.1/slick-1.8.1/slick/slick.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/js/slick.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/old-index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/img/arabfamily.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/application/config/config.php" afterPath="$PROJECT_DIR$/administrator/application/config/config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/application/config/database.php" afterPath="$PROJECT_DIR$/administrator/application/config/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/application/controllers/Pages.php" afterPath="$PROJECT_DIR$/administrator/application/controllers/Pages.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/application/models/common/mcontent.php" afterPath="$PROJECT_DIR$/administrator/application/models/common/mcontent.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/config.php" afterPath="$PROJECT_DIR$/application/config/config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/database.php" afterPath="$PROJECT_DIR$/application/config/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/home.php" afterPath="$PROJECT_DIR$/application/controllers/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/common/mcontent.php" afterPath="$PROJECT_DIR$/application/models/common/mcontent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/common/footer.php" afterPath="$PROJECT_DIR$/application/views/common/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/common/header.php" afterPath="$PROJECT_DIR$/application/views/common/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/common/page.php" afterPath="$PROJECT_DIR$/application/views/common/page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/home.php" afterPath="$PROJECT_DIR$/application/views/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/index.html" afterPath="$PROJECT_DIR$/html/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -223,7 +17,17 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="home.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/config/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="18" column="46" lean-forward="false" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/home.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -233,6 +37,26 @@
                 <element signature="n#section#0;n#!!top" expanded="false" />
                 <element signature="n#section#1;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/config/database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="52" column="32" lean-forward="true" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/administrator/application/config/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="62" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -265,6 +89,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="504">
               <caret line="405" column="51" lean-forward="false" selection-start-line="405" selection-start-column="51" selection-end-line="405" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/administrator/application/config/database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="53" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -351,11 +185,7 @@
         <option value="$PROJECT_DIR$/html/www.efqm.org.html" />
         <option value="$PROJECT_DIR$/html/css/site.css" />
         <option value="$PROJECT_DIR$/html/index.html" />
-        <option value="$PROJECT_DIR$/application/config/database.php" />
-        <option value="$PROJECT_DIR$/application/config/config.php" />
         <option value="$PROJECT_DIR$/application/views/common/footer.php" />
-        <option value="$PROJECT_DIR$/administrator/application/config/database.php" />
-        <option value="$PROJECT_DIR$/administrator/application/config/config.php" />
         <option value="$PROJECT_DIR$/html/index2.html" />
         <option value="$PROJECT_DIR$/application/views/common/page.php" />
         <option value="$PROJECT_DIR$/application/models/common/mcontent.php" />
@@ -367,6 +197,10 @@
         <option value="$PROJECT_DIR$/application/views/common/news_list.php" />
         <option value="$PROJECT_DIR$/application/views/common/header.php" />
         <option value="$PROJECT_DIR$/assets/css/site.css" />
+        <option value="$PROJECT_DIR$/administrator/application/config/database.php" />
+        <option value="$PROJECT_DIR$/administrator/application/config/config.php" />
+        <option value="$PROJECT_DIR$/application/config/config.php" />
+        <option value="$PROJECT_DIR$/application/config/database.php" />
       </list>
     </option>
   </component>
@@ -423,7 +257,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="administrator" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -437,11 +271,33 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="administrator" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lmgo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lmgo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="administrator" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -576,12 +432,12 @@
       <workItem from="1547626510622" duration="1099000" />
       <workItem from="1551854486033" duration="10583000" />
       <workItem from="1552028251614" duration="15674000" />
-      <workItem from="1552282102785" duration="18381000" />
+      <workItem from="1552282102785" duration="19138000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126147000" />
+    <option name="totallyTimeSpent" value="126904000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1320" height="784" extended-state="0" />
@@ -873,29 +729,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="53" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/application/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="36" lean-forward="false" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/application/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="44" lean-forward="false" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/common.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="921">
@@ -990,14 +823,6 @@
             <element signature="n#script#23;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#script#26;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1172,6 +997,38 @@
             <element signature="n#section#0;n#!!top" expanded="false" />
             <element signature="n#section#1;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="46" lean-forward="false" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/application/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="53" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/application/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="52" column="32" lean-forward="true" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
