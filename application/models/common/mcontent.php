@@ -151,7 +151,7 @@ class MContent extends CI_Model {
 
     function viewByTerm($term)
     {
-        $q = "SELECT c.contentid cid, c.tag, c.sts, c.latitude, c.longitude, cd.cdid cdid, cd.contentid content_id, cd.languageid languageid, cd.title, cd.sub_title, cd.short_desc short_desc, cd.long_desc long_desc, cd.meta_title meta_title, cd.meta_desc meta_desc, cd.meta_keyword meta_keywords, c.image, l.code, c.pdf, c.show_image, c.show_slider, c.show_recent_news, cd.pdf_ids, cd.year FROM content c ";
+        $q = "SELECT c.contentid cid, c.tag, c.sts, c.latitude, c.longitude, cd.cdid cdid, cd.contentid content_id, cd.languageid languageid, cd.title, cd.sub_title, cd.short_desc short_desc, cd.long_desc long_desc, cd.meta_title meta_title, cd.meta_desc meta_desc, cd.meta_keyword meta_keywords, c.image, l.code, c.pdf, c.show_image, c.show_slider, c.show_recent_news, cd.pdf_ids, cd.year,c.show_recent_news  FROM content c ";
         $q .= "INNER JOIN content_data cd ON cd.contentid = c.contentid ";
         $q .= "INNER JOIN language l ON l.id = cd.languageid ";
         $q .= "WHERE c.tag='" . $term."'";

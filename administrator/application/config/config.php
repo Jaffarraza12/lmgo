@@ -22,7 +22,7 @@
 
 */
 
-$config['base_url'] = 'http://operaartproduction.com/administrator/';
+$config['base_url'] = 'http://localhost/lmgo/administrator/';
 
 /*
 |--------------------------------------------------------------------------

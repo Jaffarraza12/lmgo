@@ -111,6 +111,9 @@ class Pages extends CI_Controller {
         $data['show_recent_news'] = $this->input->post('recent');
         $data['image'] = $this->MUtils->doUploadPath('image', 'pages');
         $data['pdf'] = $this->MUtils->doUploadPdf('pdf', 'pages/pdf');
+        if ($_FILES['image']['size']) {
+            $data['image'] = $this->MUtils->doUploadPath('image', 'img');
+        }
 
         foreach ($languages as $lang)
         {
@@ -192,8 +195,9 @@ class Pages extends CI_Controller {
         $data['entity'] = $this->MUtils->StringPrepare($this->input->get('q'));
         $data['id'] = $this->input->post('cid');
 
+
         if ($_FILES['image']['size']) {
-            $data['image'] = $this->MUtils->doUploadPath('image', 'pages');
+            $data['image'] = $this->MUtils->doUploadPath('image', 'img');
         }
 
         if ($_FILES['pdf']['size']) {

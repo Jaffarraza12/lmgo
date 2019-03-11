@@ -49,9 +49,9 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'operaart_donecms';
-$db['default']['password'] = 'Opera123!@#';
-$db['default']['database'] = 'operaart_donecms';
+$db['default']['username'] = 'root';
+$db['default']['password'] = '';
+$db['default']['database'] = 'lmgo';
 
 
 $db['default']['dbdriver'] = 'mysqli';

@@ -15,7 +15,7 @@
 |
 */
 //$config['base_url']	= ';
-$config['base_url']	= 'http://operaartproduction.com/';
+$config['base_url']	= 'http://localhost/lmgo/';
 
 /*
 |--------------------------------------------------------------------------

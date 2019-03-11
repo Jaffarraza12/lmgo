@@ -1,4 +1,4 @@
-<div class="col-sm-12">
+<div class="col-sm-12" style="display: none;">
     <div class="row" id="content-boxes" style="word-wrap: break-word;">
         <div class="col-md-12">
             <div class="col-md-12" style="padding-bottom: 15px; padding-top: 15px;">
@@ -28,3 +28,20 @@
         </div>
     </div>
 </div>
+
+
+
+<section  class="our-services wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s"
+         itemscope="" itemtype="http://schema.org/Service"
+         style="visibility: hidden; animation-duration: 1s; animation-delay: 0.3s; animation-name: none;">
+    <div class="container">
+        <div class="w3eden" >
+            <?php if ($page_content->long_desc) {
+                echo html_entity_decode( str_replace('&quot;','', $page_content->long_desc));
+            } ?>
+
+        </div>
+    </div>
+
+</section>
+

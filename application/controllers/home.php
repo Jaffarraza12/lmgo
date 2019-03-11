@@ -58,6 +58,8 @@ class Home extends CI_Controller
                 $news[$key] = $value;
             }
         }
+
+
         $data['recent_news'] = $news;
 
         $activities = $this->MPage->view("Activities");
@@ -148,6 +150,7 @@ class Home extends CI_Controller
 
             $page_content = $this->MPage->viewByTerm($q);
 
+
             foreach ($page_content as $key => $value) {
                 if ($value->languageid == $data['lang']) {
                     $page_content = $value;
@@ -156,7 +159,7 @@ class Home extends CI_Controller
 
             if ($page_content == []) {
                 $this->load->helper('url');
-                redirect(base_url().'home', 'refresh');
+               // redirect(base_url().'home', 'refresh');
             }
 
             $data['page'] = 'common/page';
@@ -220,6 +223,8 @@ class Home extends CI_Controller
             }
         }
         $data['recent_news'] = $news;
+
+
         $activities = $this->MPage->view("Activities");
         $data['activities'] = $activities;
 

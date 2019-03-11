@@ -102,6 +102,7 @@ class MContent extends CI_Model {
             'show_image' => $data['show_image'],
             'show_slider' => $data['show_slider'],
             'show_recent_news' => $data['show_recent_news'],
+            'image' => $data['image'],
             'latitude' => $lat,
             'longitude' => $lon,
             'tag' => str_replace(" ", "_", $data['seo_url'])
