@@ -297,70 +297,27 @@
                     <nav id="site-navigation" class="main-navigation" itemscope=""
                          itemtype="http://schema.org/SiteNavigationElement">
                         <div class="menu-top-menu-container">
-                            <ul id="primary-menu" class="menu">
-                                <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-33">
-                                    <a href="https://www.efqm.org/" aria-current="page">Home</a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2479">
-                                            <a href="https://www.efqm.org/index.php/efqm-news/">EFQM News</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1287">
-                                    <a href="https://www.efqm.org/index.php/about-us/">About us</a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2484">
-                                            <a href="https://www.efqm.org/index.php/about-us/meet-the-team/">Meet the
-                                                team</a></li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3494">
-                                            <a href="https://www.efqm.org/index.php/about-us/our-governance/">Our
-                                                Governance</a></li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3198">
-                                            <a href="https://www.efqm.org/index.php/community/">EFQM Community</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2475">
-                                    <a href="https://www.efqm.org/index.php/what-we-do/">What we do</a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3199">
-                                            <a href="https://www.efqm.org/index.php/learning-sharing/">Learning &amp;
-                                                Sharing</a></li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2480">
-                                            <a href="https://www.efqm.org/index.php/membership/">Membership</a></li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2481">
-                                            <a href="https://www.efqm.org/index.php/trainings/">Trainings</a></li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2482">
-                                            <a href="https://www.efqm.org/index.php/excellence-builders/">Excellence
-                                                Builders</a></li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2483">
-                                            <a href="https://www.efqm.org/index.php/efqm-recognition/">EFQM
-                                                Recognition</a></li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2894">
-                                            <a href="https://www.efqm.org/index.php/equip/">Equip</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-993">
-                                    <a href="https://www.efqm.org/index.php/efqm-model-2013/">EFQM Model</a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2478">
-                                            <a href="https://www.efqm.org/index.php/efqm-model-2013/download-your-free-copy/">Download
-                                                your free copy</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item menu-item-type-post_type_archive menu-item-object-tribe_events menu-item-2145">
-                                    <a href="https://www.efqm.org/index.php/efqm-events/">Calendar</a></li>
-                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-451"><a
-                                            href="http://www.shop.efqm.org/">EFQM Shop</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-36">
-                                    <a href="https://www.efqm.org/index.php/contact-us/">Contact us</a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-epkb_post_type_1_category menu-item-4040">
-                                            <a href="https://www.efqm.org/index.php/knowledge-base/category/faq/">FAQ</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
+                            <?php
+                            $langCode = 'AR';
+                            echo '<ul id="primary-menu" class="menu">';
+                            foreach ($menu[$langCode][0][0] as $row) {
+                                echo '<li><a href="'. $row->link.'">'. $row->name.'</a>';
+                                if (sizeof($row->children[0]) > 0) {
+                                    echo '<ul class="sub-menu">';
+                                    foreach ($row->children[0] as $child) {
+                                        echo '<li ><a href="'. $child->link.'">' . $child->name.'</a>';
+                                    }
+                                    echo '</ul>';
+                                }
+                                echo '</li >';
+                            }
+                            echo '</ul>';
+                            ?>
+
                         </div>
                     </nav><!-- #site-navigation -->
+
+
                 </div>
             </div>
         </div>
@@ -373,6 +330,6 @@
         }
     </style>
 
-    
+   
 
 
