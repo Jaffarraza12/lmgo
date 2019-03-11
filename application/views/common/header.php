@@ -155,9 +155,91 @@
                     </div>
                 </div>
                 <div class="container">
-                <?php  $config->render(['common/nav']) ;?><!-- #site-navigation -->
-
-
+                    <nav class="main-navigation">
+                        <div class="menu-top-menu-container">
+                            <ul id="primary-menu" class="menu">
+                                <li id="menu-item-33"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-33">
+                                    <a href="https://www.efqm.org/" aria-current="page">Home</a>
+                                    <ul class="sub-menu">
+                                        <li id="menu-item-2479"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2479">
+                                            <a href="https://www.efqm.org/index.php/efqm-news/">EFQM News</a></li>
+                                    </ul>
+                                </li>
+                                <li id="menu-item-1287"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1287">
+                                    <a href="https://www.efqm.org/index.php/about-us/">About us</a>
+                                    <ul class="sub-menu">
+                                        <li id="menu-item-2484"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2484">
+                                            <a href="https://www.efqm.org/index.php/about-us/meet-the-team/">Meet the
+                                                team</a></li>
+                                        <li id="menu-item-3494"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3494">
+                                            <a href="https://www.efqm.org/index.php/about-us/our-governance/">Our
+                                                Governance</a></li>
+                                        <li id="menu-item-3198"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3198">
+                                            <a href="https://www.efqm.org/index.php/community/">EFQM Community</a></li>
+                                    </ul>
+                                </li>
+                                <li id="menu-item-2475"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2475">
+                                    <a href="https://www.efqm.org/index.php/what-we-do/">What we do</a>
+                                    <ul class="sub-menu">
+                                        <li id="menu-item-3199"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3199">
+                                            <a href="https://www.efqm.org/index.php/learning-sharing/">Learning &amp;
+                                                Sharing</a></li>
+                                        <li id="menu-item-2480"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2480">
+                                            <a href="https://www.efqm.org/index.php/membership/">Membership</a></li>
+                                        <li id="menu-item-2481"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2481">
+                                            <a href="https://www.efqm.org/index.php/trainings/">Trainings</a></li>
+                                        <li id="menu-item-2482"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2482">
+                                            <a href="https://www.efqm.org/index.php/excellence-builders/">Excellence
+                                                Builders</a></li>
+                                        <li id="menu-item-2483"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2483">
+                                            <a href="https://www.efqm.org/index.php/efqm-recognition/">EFQM
+                                                Recognition</a></li>
+                                        <li id="menu-item-2894"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2894">
+                                            <a href="https://www.efqm.org/index.php/equip/">Equip</a></li>
+                                    </ul>
+                                </li>
+                                <li id="menu-item-993"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-993">
+                                    <a href="https://www.efqm.org/index.php/efqm-model-2013/">EFQM Model</a>
+                                    <ul class="sub-menu">
+                                        <li id="menu-item-2478"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2478">
+                                            <a href="https://www.efqm.org/index.php/efqm-model-2013/download-your-free-copy/">Download
+                                                your free copy</a></li>
+                                    </ul>
+                                </li>
+                                <li id="menu-item-2145"
+                                    class="menu-item menu-item-type-post_type_archive menu-item-object-tribe_events menu-item-2145">
+                                    <a href="https://www.efqm.org/index.php/efqm-events/">Calendar</a></li>
+                                <li id="menu-item-451"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-451"><a
+                                            href="http://www.shop.efqm.org/">EFQM Shop</a></li>
+                                <li id="menu-item-36"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-36">
+                                    <a href="https://www.efqm.org/index.php/contact-us/">Contact us</a>
+                                    <ul class="sub-menu">
+                                        <li id="menu-item-4040"
+                                            class="menu-item menu-item-type-taxonomy menu-item-object-epkb_post_type_1_category menu-item-4040">
+                                            <a href="https://www.efqm.org/index.php/knowledge-base/category/faq/">FAQ</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav><!-- #site-navigation -->
 
                     <a href="http://www.efqm.org/index.php/membership/" class="btn-buy custom_label">
                         <svg class="svg-inline--fa fa-edit fa-w-18" aria-hidden="true" data-prefix="fa" data-icon="edit"
@@ -201,7 +283,7 @@
         <div class="main-header">
             <div class="container">
                 <div class="site-branding " itemscope="" itemtype="http://schema.org/Organization">
-                    <div class="text-logo"><h1 class="site-title" itemprop="name"><a href="<?php echo base_url().'home' ?>"
+                    <div class="text-logo"><h1 class="site-title" itemprop="name"><a href="https://www.efqm.org/"
                                                                                      rel="home" itemprop="url"></a></h1>
                     </div><!-- .text-logo -->            </div>
                 <div class="right">
@@ -212,13 +294,85 @@
                             <path fill="currentColor"
                                   d="M402.6 83.2l90.2 90.2c3.8 3.8 3.8 10 0 13.8L274.4 405.6l-92.8 10.3c-12.4 1.4-22.9-9.1-21.5-21.5l10.3-92.8L388.8 83.2c3.8-3.8 10-3.8 13.8 0zm162-22.9l-48.8-48.8c-15.2-15.2-39.9-15.2-55.2 0l-35.4 35.4c-3.8 3.8-3.8 10 0 13.8l90.2 90.2c3.8 3.8 10 3.8 13.8 0l35.4-35.4c15.2-15.3 15.2-40 0-55.2zM384 346.2V448H64V128h229.8c3.2 0 6.2-1.3 8.5-3.5l40-40c7.6-7.6 2.2-20.5-8.5-20.5H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V306.2c0-10.7-12.9-16-20.5-8.5l-40 40c-2.2 2.3-3.5 5.3-3.5 8.5z"></path>
                         </svg><!-- <i class="fa fa-edit"></i> -->Join us!</a>
-                   
+                    <nav id="site-navigation" class="main-navigation" itemscope=""
+                         itemtype="http://schema.org/SiteNavigationElement">
+                        <div class="menu-top-menu-container">
+                            <ul id="primary-menu" class="menu">
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-33">
+                                    <a href="https://www.efqm.org/" aria-current="page">Home</a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2479">
+                                            <a href="https://www.efqm.org/index.php/efqm-news/">EFQM News</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1287">
+                                    <a href="https://www.efqm.org/index.php/about-us/">About us</a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2484">
+                                            <a href="https://www.efqm.org/index.php/about-us/meet-the-team/">Meet the
+                                                team</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3494">
+                                            <a href="https://www.efqm.org/index.php/about-us/our-governance/">Our
+                                                Governance</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3198">
+                                            <a href="https://www.efqm.org/index.php/community/">EFQM Community</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2475">
+                                    <a href="https://www.efqm.org/index.php/what-we-do/">What we do</a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3199">
+                                            <a href="https://www.efqm.org/index.php/learning-sharing/">Learning &amp;
+                                                Sharing</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2480">
+                                            <a href="https://www.efqm.org/index.php/membership/">Membership</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2481">
+                                            <a href="https://www.efqm.org/index.php/trainings/">Trainings</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2482">
+                                            <a href="https://www.efqm.org/index.php/excellence-builders/">Excellence
+                                                Builders</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2483">
+                                            <a href="https://www.efqm.org/index.php/efqm-recognition/">EFQM
+                                                Recognition</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2894">
+                                            <a href="https://www.efqm.org/index.php/equip/">Equip</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-993">
+                                    <a href="https://www.efqm.org/index.php/efqm-model-2013/">EFQM Model</a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2478">
+                                            <a href="https://www.efqm.org/index.php/efqm-model-2013/download-your-free-copy/">Download
+                                                your free copy</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type_archive menu-item-object-tribe_events menu-item-2145">
+                                    <a href="https://www.efqm.org/index.php/efqm-events/">Calendar</a></li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-451"><a
+                                            href="http://www.shop.efqm.org/">EFQM Shop</a></li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-36">
+                                    <a href="https://www.efqm.org/index.php/contact-us/">Contact us</a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-epkb_post_type_1_category menu-item-4040">
+                                            <a href="https://www.efqm.org/index.php/knowledge-base/category/faq/">FAQ</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav><!-- #site-navigation -->
                 </div>
             </div>
         </div>
     </header>
+    <style>
+        #owl-demo .item img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+    </style>
 
-
-
+    
 
 
