@@ -1,4 +1,7 @@
-<?php //if ($page_content->show_slider) {   $config->render(['common/slideshow']); } ?>
+<?php if ($page_content->show_slider) {
+    $config->render(['common/slideshow']);
+
+} ?>
 <style>
     .awe-effect{
         margin: 10px 0px;

@@ -373,45 +373,6 @@
         }
     </style>
 
-    <div class="banner">
-        <div id="owl-demo" class="owl-carousel owl-theme">
-            <div class="item"><img src="http://www.landmarkmlp.com/js-plugin/owl.carousel/demos/assets/fullimage1.jpg"
-                                   alt="The Last of us">
-                <div class="banner-text">
-                    <div class="container">
-                        <div class="text-holder">
-                            <h2 class="main_heading"> Award Winner 2018</h2>
-                            <div class="btn-holder"><a href="#" class="slider-btn">Find out more</a></div>
-                        </div>
-                    </div>
-                </div>
 
-            </div>
-            <div class="item"><img src="http://www.landmarkmlp.com/js-plugin/owl.carousel/demos/assets/fullimage2.jpg"
-                                   alt="GTA V">
-                <div class="banner-text">
-                    <div class="container">
-                        <div class="text-holder">
-                            <h2 class="main_heading"> Award Winner 2018</h2>
-                            <div class="btn-holder"><a href="#" class="slider-btn">Find out more</a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="item"><img src="http://www.landmarkmlp.com/js-plugin/owl.carousel/demos/assets/fullimage3.jpg"
-                                   alt="Mirror Edge">
-                <div class="banner-text">
-                    <div class="container">
-                        <div class="text-holder">
-                            <h2 class="main_heading"> Award Winner 2018</h2>
-                            <div class="btn-holder"><a href="#" class="slider-btn">Find out more</a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-    </div>
 
 
