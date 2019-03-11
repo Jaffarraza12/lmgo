@@ -1,4 +1,4 @@
-<nav class="navbar" role="navigation">
+<nav class="main-navigation" role="navigation">
     <div style="padding:0 2%;border-bottom:thin solid rgba(198, 156, 108, 0.5)">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="menu-container">
