@@ -261,7 +261,7 @@
     </div>
 </section>
 <?php } ?>
-<?php if ( !$page_content->show_recent_news) {
+<?php if ( $page_content->show_recent_news == 'on') {
     $config->render(['common/news_list']) ;?>
 <?php } ?>
 <?php $config->render([$page])?>
