@@ -155,7 +155,7 @@
                     </div>
                 </div>
                 <div class="container">
-                <?php  $config->render(['header']) ;?><!-- #site-navigation -->
+                <?php  $config->render(['nav']) ;?><!-- #site-navigation -->
 
 
 
