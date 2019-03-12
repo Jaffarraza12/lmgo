@@ -55,7 +55,7 @@
         <section id="sow-button-5" class="widget widget_sow-button">
             <div class="so-widget-sow-button so-widget-sow-button-flat-95502f6e4388">
                 <div class="ow-button-base ow-button-align-center">
-                    <a href="http://www.knowledge-base.efqm.org/members-area/knowledge-base"
+                    <a href="#"
                        class="ow-icon-placement-left ow-button-hover" target="_blank" rel="noopener noreferrer">
 		<span>
 

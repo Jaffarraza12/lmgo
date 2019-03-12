@@ -1,30 +1,5 @@
-<nav class="main-navigation" role="navigation">
+<nav id="site-navigation" class="main-navigation" >
     <div style="padding:0 2%;border-bottom:thin solid rgba(198, 156, 108, 0.5)">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="menu-container">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="toggle-icon"></span>
-            </button>
-
-            <!-- Logo -->
-            <div class="navbar-logo pull-right">
-                <a class="navbar-logo-wrap" href="<?php echo base_url(); ?>">
-                    <img class="navbar-logo-img" src="<?php echo base_url(); ?>assets/img/logo.jpg" alt="Acidus Logo">
-                </a>
-            </div>
-            <!-- End Logo -->
-
-            <!-- Logo -->
-            <div class="navbar-logo pull-left">
-                <a class="navbar-logo-wrap" href="<?php echo base_url(); ?>">
-                    <img class="navbar-logo-img" src="<?php echo base_url(); ?>assets/img/logo-left.jpg" alt="Acidus Logo">
-                </a>
-            </div>
-            <!-- End Logo -->
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse nav-collapse">
             <div class="menu-container">
                 <ul class="navbar-nav navbar-nav-right mobile-only">
