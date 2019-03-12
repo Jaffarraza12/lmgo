@@ -1,8 +1,8 @@
-<footer id="colophon" class="site-footer" itemscope="" itemtype="http://schema.org/WPFooter">
+<footer id="colophon" class="site-footer">
     <div class="container">
         <div class="footer-b">
             <span class="copyright">Copyright © 2019 <a href="https://www.efqm.org/"></a>. </span><span
-                    class="powered-by">Powered by <a href="https://wordpress.org/" target="_blank">WordPress</a>.</span>
+                    class="powered-by">Powered by <a href="http://appertunity.net/" target="_blank">Appertunity</a>.</span>
         </div>
     </div><!-- .container -->
 </footer><!-- #colophon -->
