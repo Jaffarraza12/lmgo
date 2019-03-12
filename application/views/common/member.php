@@ -40,7 +40,7 @@
                                 </div>
                             </form>
                             <?php if($member) { ?>
-                                <div class="alert alert-success"><i class="fa fa-check"></i> <?php echo $number ?> Records found.</div>
+                                <div class="alert alert-success"><i class="fa fa-check"></i> <strong><?php echo $number ?></strong> Records found.</div>
 
                             <div class="card-body row no-gutters align-items-center">
                                 <div class="col" style="padding: 10px;">
@@ -58,7 +58,7 @@
                                 <?php } ?>
                             </div>
                            <?php } else if($number) {?>
-                                <div class="alert alert-danger"><i class="fa fa-check"></i> <?php echo $number ?> No Records found.</div>
+                                <div class="alert alert-danger"><i class="fa fa-check"></i> <strong><?php echo $number ?></strong> No Records found.</div>
 
                             <?php } ?>
                         </div>
