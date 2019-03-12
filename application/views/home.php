@@ -47,7 +47,7 @@
     }
 </style>
 <div class="clearfix"></div>
-
+<div style="min-height: 600px">
 <?php if ($page_content->cid == 44 ) { ?>
 <section id="skill-section" class="our-skills wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s"
          style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;">
@@ -271,4 +271,4 @@
 
 
 
-
+</div>
