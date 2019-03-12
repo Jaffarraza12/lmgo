@@ -37,17 +37,12 @@
             </a>
         </li>
         <li id="mnuSlideShow">
-            <a href="<?php echo base_url(); ?>index.php/Videos/view">
+            <a href="<?php echo base_url(); ?>index.php/Member">
                 <i class="icon-screen-desktop"></i>
-                <span class="title">Videos</span>
+                <span class="title">Members</span>
             </a>
         </li>
-        <li id="mnuSlideShow">
-            <a href="<?php echo base_url(); ?>index.php/Voice">
-                <i class="icon-screen-desktop"></i>
-                <span class="title">Voice</span>
-            </a>
-        </li>
+
 
 
 
