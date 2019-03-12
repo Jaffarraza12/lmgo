@@ -301,7 +301,7 @@
                             $langCode = 'AR';
                             echo '<ul id="primary-menu" class="menu">';
                             foreach ($menu[$langCode][0][0] as $row) {
-                                $hasChildren = sizeof($row->children[0] > 1) ? 'menu-item-has-children' : '';
+                                $hasChildren = (sizeof($row->children[0] ) > 0 ) ? 'menu-item-has-children' : '';
                                 echo '<li class="menu-item menu-item-type-custom menu-item-object-custom '.$hasChildren.'"><a href="'. $row->link.'">'. $row->name.'</a>';
                                 if (sizeof($row->children[0]) > 0) {
                                     echo '<ul class="sub-menu">';
