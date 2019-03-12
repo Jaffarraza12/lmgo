@@ -121,6 +121,27 @@ class Home extends CI_Controller
 
         } elseif (strtolower($q) == 'member') {
 
+
+
+            if($_POST){
+                extract($_POST);
+                $data['number'] = $number;
+                $slide_sql = "select * from `member` WHERE  `card_number` = '".$number."'";
+                $result = $this->db->query($slide_sql);
+                if( $result->num_rows() ) {
+                    $data['member'] = $result->row();
+                } else {
+                    $data['error'] = 'Sorry Card Number Not Found!';
+
+                }
+
+            }
+            $data['page'] = 'common/member';
+            $data['page_content'] = $page_content;
+            $data['type'] = "page";
+
+        } elseif (strtolower($q) == 'videos') {
+
             $slide_sql = "select * from `videos`";
             $data['videos'] = $this->db->query($slide_sql)->result();
 
