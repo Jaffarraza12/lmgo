@@ -87,7 +87,7 @@ class Member extends CI_Controller {
     }
 
     //Show the view to edit page
-    public function Edit($id)
+    public function Edit()
     {
         //Load languages and Default Language
         $data['Languages'] = $this->MUtils->getLanguages();
