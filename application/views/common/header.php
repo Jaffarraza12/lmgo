@@ -120,7 +120,7 @@
                             <path fill="currentColor"
                                   d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm112-108c0 6.6-5.4 12-12 12H60c-6.6 0-12-5.4-12-12V60c0-6.6 5.4-12 12-12h200c6.6 0 12 5.4 12 12v312z"></path>
                         </svg><!-- <i class="fa fa-mobile-phone"></i> -->
-                        <a href="tel:3227753511" class="tel-link">+32 2 775 3511</a>
+                        <a href="tel:3227711111" class="tel-link">+32 2 771 1111</a>
                     </div>
                     <div class="address" itemscope="" itemtype="http://schema.org/PostalAddress">
                         <svg class="svg-inline--fa fa-map-marker-alt fa-w-12" aria-hidden="true" data-prefix="fa"
@@ -129,7 +129,7 @@
                             <path fill="currentColor"
                                   d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path>
                         </svg><!-- <i class="fa fa-map-marker"></i> -->
-                        <address>Avenue des Olympiades 2, 1140 Brussels</address>
+                        <address>Address </address>
                     </div>
                     <div class="email">
                         <svg class="svg-inline--fa fa-envelope fa-w-16" aria-hidden="true" data-prefix="far"
@@ -138,7 +138,7 @@
                             <path fill="currentColor"
                                   d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z"></path>
                         </svg><!-- <i class="fa fa-envelope-o"></i> -->
-                        <a href="mailto:info@efqm.org" class="email-link">info@efqm.org</a>
+                        <a href="mailto:info@imacmc.com" class="email-link">info@imacmc.com</a>
                     </div>
                 </div>
 
@@ -157,87 +157,23 @@
                 <div class="container">
                     <nav class="main-navigation">
                         <div class="menu-top-menu-container">
-                            <ul id="primary-menu" class="menu">
-                                <li id="menu-item-33"
-                                    class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-33">
-                                    <a href="https://www.efqm.org/" aria-current="page">Home</a>
-                                    <ul class="sub-menu">
-                                        <li id="menu-item-2479"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2479">
-                                            <a href="https://www.efqm.org/index.php/efqm-news/">EFQM News</a></li>
-                                    </ul>
-                                </li>
-                                <li id="menu-item-1287"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1287">
-                                    <a href="https://www.efqm.org/index.php/about-us/">About us</a>
-                                    <ul class="sub-menu">
-                                        <li id="menu-item-2484"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2484">
-                                            <a href="https://www.efqm.org/index.php/about-us/meet-the-team/">Meet the
-                                                team</a></li>
-                                        <li id="menu-item-3494"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3494">
-                                            <a href="https://www.efqm.org/index.php/about-us/our-governance/">Our
-                                                Governance</a></li>
-                                        <li id="menu-item-3198"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3198">
-                                            <a href="https://www.efqm.org/index.php/community/">EFQM Community</a></li>
-                                    </ul>
-                                </li>
-                                <li id="menu-item-2475"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2475">
-                                    <a href="https://www.efqm.org/index.php/what-we-do/">What we do</a>
-                                    <ul class="sub-menu">
-                                        <li id="menu-item-3199"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3199">
-                                            <a href="https://www.efqm.org/index.php/learning-sharing/">Learning &amp;
-                                                Sharing</a></li>
-                                        <li id="menu-item-2480"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2480">
-                                            <a href="https://www.efqm.org/index.php/membership/">Membership</a></li>
-                                        <li id="menu-item-2481"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2481">
-                                            <a href="https://www.efqm.org/index.php/trainings/">Trainings</a></li>
-                                        <li id="menu-item-2482"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2482">
-                                            <a href="https://www.efqm.org/index.php/excellence-builders/">Excellence
-                                                Builders</a></li>
-                                        <li id="menu-item-2483"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2483">
-                                            <a href="https://www.efqm.org/index.php/efqm-recognition/">EFQM
-                                                Recognition</a></li>
-                                        <li id="menu-item-2894"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2894">
-                                            <a href="https://www.efqm.org/index.php/equip/">Equip</a></li>
-                                    </ul>
-                                </li>
-                                <li id="menu-item-993"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-993">
-                                    <a href="https://www.efqm.org/index.php/efqm-model-2013/">EFQM Model</a>
-                                    <ul class="sub-menu">
-                                        <li id="menu-item-2478"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2478">
-                                            <a href="https://www.efqm.org/index.php/efqm-model-2013/download-your-free-copy/">Download
-                                                your free copy</a></li>
-                                    </ul>
-                                </li>
-                                <li id="menu-item-2145"
-                                    class="menu-item menu-item-type-post_type_archive menu-item-object-tribe_events menu-item-2145">
-                                    <a href="https://www.efqm.org/index.php/efqm-events/">Calendar</a></li>
-                                <li id="menu-item-451"
-                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-451"><a
-                                            href="http://www.shop.efqm.org/">EFQM Shop</a></li>
-                                <li id="menu-item-36"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-36">
-                                    <a href="https://www.efqm.org/index.php/contact-us/">Contact us</a>
-                                    <ul class="sub-menu">
-                                        <li id="menu-item-4040"
-                                            class="menu-item menu-item-type-taxonomy menu-item-object-epkb_post_type_1_category menu-item-4040">
-                                            <a href="https://www.efqm.org/index.php/knowledge-base/category/faq/">FAQ</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
+                            <?php
+                            $langCode = 'AR';
+                            echo '<ul id="primary-menu" class="menu">';
+                            foreach ($menu[$langCode][0][0] as $row) {
+                                $hasChildren = (sizeof($row->children[0] ) > 0 ) ? 'menu-item-has-children' : '';
+                                echo '<li class="menu-item menu-item-type-custom menu-item-object-custom '.$hasChildren.'"><a href="'. $row->link.'">'. $row->name.'</a>';
+                                if (sizeof($row->children[0]) > 0) {
+                                    echo '<ul class="sub-menu">';
+                                    foreach ($row->children[0] as $child) {
+                                        echo '<li  class="menu-item menu-item-type-custom menu-item-object-custom"><a href="'. $child->link.'">' . $child->name.'</a>';
+                                    }
+                                    echo '</ul>';
+                                }
+                                echo '</li >';
+                            }
+                            echo '</ul>';
+                            ?>
                         </div>
                     </nav><!-- #site-navigation -->
 
