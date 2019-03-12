@@ -57,7 +57,7 @@
                                 </div>
                                 <?php } ?>
                             </div>
-                           <?php } else {?>
+                           <?php } else if($number) {?>
                                 <div class="alert alert-danger"><i class="fa fa-check"></i> <?php echo $number ?> No Records found.</div>
 
                             <?php } ?>
