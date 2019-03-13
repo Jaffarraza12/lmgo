@@ -74,7 +74,7 @@
                      class="widget widget_raratheme_companion_stat_counter_widget">
                 <div class="col">
                     <div class="raratheme-sc-holder">
-                        <h2 class="widget-title" itemprop="name">Model Users Worldwide</h2>
+                        <h2 class="widget-title" itemprop="name">Nationalities </h2>
                         <div class="icon-holder">
                             <svg class="svg-inline--fa fa-child fa-w-12" aria-hidden="true" data-prefix="fa"
                                  data-icon="child" role="img" xmlns="http://www.w3.org/2000/svg"
@@ -128,7 +128,7 @@
                      class="widget widget_raratheme_companion_stat_counter_widget">
                 <div class="col">
                     <div class="raratheme-sc-holder">
-                        <h2 class="widget-title" itemprop="name">Members</h2>
+                        <h2 class="widget-title" itemprop="name">Students </h2>
                         <div class="icon-holder">
                             <svg class="svg-inline--fa fa-address-card fa-w-18" aria-hidden="true" data-prefix="fa"
                                  data-icon="address-card" role="img" xmlns="http://www.w3.org/2000/svg"
@@ -173,7 +173,7 @@
                      class="widget widget_raratheme_companion_stat_counter_widget">
                 <div class="col">
                     <div class="raratheme-sc-holder">
-                        <h2 class="widget-title" itemprop="name">Highly Skilled Assessors</h2>
+                        <h2 class="widget-title" itemprop="name">Courses </h2>
                         <div class="icon-holder">
                             <svg class="svg-inline--fa fa-graduation-cap fa-w-20" aria-hidden="true"
                                  data-prefix="fa" data-icon="graduation-cap" role="img"
@@ -223,7 +223,7 @@
                      class="widget widget_raratheme_companion_stat_counter_widget">
                 <div class="col">
                     <div class="raratheme-sc-holder">
-                        <h2 class="widget-title" itemprop="name">Partners across the world</h2>
+                        <h2 class="widget-title" itemprop="name">Partners</h2>
                         <div class="icon-holder">
                             <svg class="svg-inline--fa fa-globe fa-w-16" aria-hidden="true" data-prefix="fa"
                                  data-icon="globe" role="img" xmlns="http://www.w3.org/2000/svg"

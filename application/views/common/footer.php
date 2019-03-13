@@ -122,7 +122,7 @@
         margin-right: 0px;
     }</style>
 <div class="norm_row sfsi_wDiv" id="sfsi_floater"
-     style="z-index: 9999; width: 300px; text-align: left; position: absolute; right: 10px; top: 10px;" data-top="5000">
+     style="display:none;z-index: 9999; width: 300px; text-align: left; position: absolute; right: 10px; top: 10px;" data-top="5000">
     <div style="width:40px; height:40px;margin-left:5px;margin-bottom:5px;" class="sfsi_wicons shuffeldiv ">
         <div class="inerCnt"><a class=" sficn" effect="" target="_blank"
                                 href="http://www.specificfeeds.com/widgets/emailSubscribeEncFeed/V0VxNDJYRVNINWRSMUVJQ3Rqa1ZMemxUOHRYZDltZ2x0ZDYxSDQramd0Y29VWkRaTTNVTE1HbElWNVZJS05SQndVWk5DNXIzQzYybjVETnRsalpvMzEzcVJQNFkrbFdCNjhSeXhKL1hESk9qZUh6L1hiSDIrdVVJSHZPK0RndVJ8dGVUOHBHdGh0SDVQS1hiRW5WTXJON3VyditWUXFhdDhKM01VOVlSakZOYz0=/OA==/"
