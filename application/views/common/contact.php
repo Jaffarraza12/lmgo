@@ -1,97 +1,65 @@
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<div class="container" style="margin-bottom:50px">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
 
-    <h2>Contact Us Page</h2>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<div class="container">
     <div class="row">
-        <div class="col-md-8" >
-            <div class="well well-sm" style="height: 500px;">
-                <form>
-                    <div class="row">
-                        <div class="col-md-6" style="float: right">
-                            <div class="form-group">
-                                <label for="name">
-                                    اسم</label>
-                                <input type="text" class="form-control" id="name" placeholder="اسم" required="required">
-                            </div>
-                            <div class="form-group">
-                                <label for="email">
-                                    البريد الإلكتروني</label>
-                                <div class="input-group">
-                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
-                                </span>
-                                    <input type="email" class="form-control" id="email" placeholder="البريد الإلكتروني
-" required="required" style="width: 100% !important;"></div>
-                            </div>
-                            <div class="form-group">
-                                <label for="subject">
-                                    موضوع</label>
-                                <select id="subject" name="subject" class="form-control" required="required" style="text-align: right;direction: rtl">
-                                    <option value="na" selected="">اختر واحد
-                                    </option>
-                                    <option value="service">خدمة العملاء العامة
-                                    </option>
-                                    <option value="suggestions">اقتراح</option>
-                                    <option value="product">الدعم
-                                    </option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-md-6" style="float: right">
-                            <div class="form-group">
-                                <label for="name">
-                                    رسالة</label>
-                                <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required" placeholder="رسالة"></textarea>
-                            </div>
-                        </div>
-                        <div class="col-md-12" style="background: transparent">
-                            <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
-                                ارسل رسالة
-                            </button>
-                        </div>
-                    </div>
-                </form>
-            </div>
+        <div class="col">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Contact</li>
+                </ol>
+            </nav>
         </div>
-        <div class="col-md-4">
-            <p>البريد الإلكتروني</p>
-            <p>info@operaartproduction.com</p>
-            <p> هاتف :   0097167379830       </p>
-            <p>  هاتف متحرك : استاذ أكرم الشريف 0509966390   </p>
-            <p> العنوان : عجمان- الجرف – فلامنجو مول – مكتب رقم 113    </p>
-
-
-
-
-
-        </div>
-
-        <style>
-
-            #content-boxes {}
-            #content-boxes div.col-md-12 img {
-                width:100%;
-            }
-            #content-boxes div.col-md-12 div.col-md-12 {
-                background-color: #FFFFFF;
-            }
-            #content-boxes div.col-md-12 h2 {
-                margin: 30px 0 20px 0;
-            }
-
-            .well-sm {
-                padding: 9px;
-                border-radius: 3px;
-            }
-            .well {
-                min-height: 20px;
-                padding: 19px;
-                margin-bottom: 20px;
-                background-color: #f5f5f5;
-                border: 1px solid #e3e3e3;
-                border-radius: 4px;
-                -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
-                box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
-            }
-        </style>
     </div>
 </div>
+<!-- Footer -->
+<footer class="text-light">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto">
+                <h5>Informations</h5>
+                <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+                <ul class="list-unstyled">
+                    <li><a href="">Link 1</a></li>
+                    <li><a href="">Link 2</a></li>
+                    <li><a href="">Link 3</a></li>
+                    <li><a href="">Link 4</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto">
+                <h5>Others links</h5>
+                <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+                <ul class="list-unstyled">
+                    <li><a href="">Link 1</a></li>
+                    <li><a href="">Link 2</a></li>
+                    <li><a href="">Link 3</a></li>
+                    <li><a href="">Link 4</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-4 col-lg-3 col-xl-3">
+                <h5>Contact</h5>
+                <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+                <ul class="list-unstyled">
+                    <li><i class="fa fa-home mr-2"></i> My company</li>
+                    <li><i class="fa fa-envelope mr-2"></i> email@example.com</li>
+                    <li><i class="fa fa-phone mr-2"></i> + 33 12 14 15 16</li>
+                    <li><i class="fa fa-print mr-2"></i> + 33 12 14 15 16</li>
+                </ul>
+            </div>
+            <div class="col-12 copyright mt-3">
+                <p class="float-left">
+                    <a href="#">Back to top</a>
+                </p>
+                <p class="text-right text-muted">created with <i class="fa fa-heart"></i> by <a href="https://t-php.fr/43-theme-ecommerce-bootstrap-4.html"><i>t-php</i></a> | <span>v. 1.0</span></p>
+            </div>
+        </div>
+    </div>
+</footer>
