@@ -223,7 +223,8 @@
 
                         <a href="<?php echo  base_url() ?>" class="">
                             <img src="<?php echo  base_url().'assets/img/logo.png' ?>" /> </a>
-                    <nav id="site-navigation"  style="margin-right: 125px;" class="main-navigation" itemscope=""
+                    <nav id="site-navigation"  style=" margin-left: 75px;
+    margin-right: 50px;" class="main-navigation" itemscope=""
                          itemtype="http://schema.org/SiteNavigationElement">
                         <div class="menu-top-menu-container">
                             <?php
