@@ -20,13 +20,13 @@
                     <div class="row justify-content-center">
                         <div class="col-12 col-md-10 col-lg-8">
                             <form action="member" method="post" class="card card-sm">
-                                <div class="card-body row no-gutters align-items-center">
+                                <div class="container">
                                     <div class="col-auto">
-                                        <i class="fas fa-search h4 text-body"></i>
+                                        <i class="fa fa-search h4 text-body"></i>
                                     </div>
                                     <!--end of col-->
                                     <div class="col">
-                                        <input name="number"  value="<?php echo $number ?>" class="form-control form-control-lg form-control-borderless" type="search" placeholder="Search with Card Number ">
+                                        <input name="number" style="float: left;"  value="<?php echo $number ?>" class="form-control form-control-lg form-control-borderless" type="search" placeholder="Search with Card Number ">
                                     </div>
                                     <!--end of col-->
                                     <div class="col-auto">
@@ -41,7 +41,7 @@
                                 <div class="membership-header"></div>
                                 <div class="membership-content">
                                 <div class="detail"><a >Name :<?php echo $member->name ?></a><br/><a >Program :<?php echo $member->program ?></a></div>
-                                <div class="detail">  <img width="150" src="<?php echo base_url().'uploads/certificate/'.$member->image ?>" /></div>
+                                <div class="detail">  <img width="150" style="border: 1px solid #000;" src="<?php echo base_url().'uploads/certificate/'.$member->image ?>" /></div>
                                </div>
                                 <div class="membership-footer">
                                     <div class="copyright">
