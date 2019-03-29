@@ -1,3 +1,7 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+<!------ Include the above in your HEAD tag ---------->
+
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 <style>
     /*
@@ -65,7 +69,7 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-sm-8 col-md-8 ">
+        <div class="col">
             <div class="card">
                 <div class="card-header bg-primary text-white"><i class="fa fa-envelope"></i> Contact us.
                 </div>
@@ -90,8 +94,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-4 col-md-3 ">
-            <div class="card bg-light">
+        <div class="col-12 col-sm-4">
+            <div class="card bg-light mb-3">
                 <div class="card-header bg-success text-white text-uppercase"><i class="fa fa-home"></i> Address</div>
                 <div class="card-body">
 
