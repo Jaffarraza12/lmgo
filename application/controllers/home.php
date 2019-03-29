@@ -119,7 +119,7 @@ class Home extends CI_Controller
             $data['page_content'] = $page_content;
             $data['type'] = "page";
 
-        } elseif (strtolower($q) == 'register-member') {
+        } elseif (strtolower($q) == 'member') {
 
             if($_POST){
                 extract($_POST);
