@@ -7588,8 +7588,8 @@ RARATHEME SOCIAL ICON WIDGET
     }
 }
 .w3eden .center-content{margin: auto;width: 65%;}
-centerCount{margin: auto;text-align: center;width: 100%;}
-@media  (min-width: 767px) {
+centerCount{margin: auto;text-align: center;width: 100%;    }
+@media  (max-width: 767px) {
     .w3eden .center-content{width: 100%}
     .centerCount{margin: auto;text-align: center;}
 }
