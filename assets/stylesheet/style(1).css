@@ -7590,10 +7590,11 @@ RARATHEME SOCIAL ICON WIDGET
 .membership{width:700px;margin:auto;}
 .membership .membership-header{background:url("../img/imagcard-header.png") center top no-repeat;height: 100px;  }
 .membership .membership-footer{background:url("../img/imagcard-footer.png") center top no-repeat;height: 113px;  }
-.membership a {font-weight: bold;color:#01c2f8;}
+.membership a {color:##3099c3;font-weight:bold;}
 .membership .copyright{margin-left: 20%;}
-.membership .detail{width: 50%;float: left;}
-.membership .membership-content{height: 350px;clear: bothl}
+.membership .copyright a{font-weight: lighter;}
+.membership .detail{width: 50%;float: left;padding: 5% 20px;}
+.membership .membership-content{height: 200px;clear: both;}
 .w3eden .center-content{margin: auto;width: 65%;}
 .centerCount{margin: auto;text-align: center;width: 100%;    }
 .centerCount a{font-size: 15px;}
