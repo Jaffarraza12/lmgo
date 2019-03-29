@@ -14,12 +14,22 @@
         background-color: #007bff;
     }
 
+    .w3eden .card .card-body{
+        display: block;
+        border: 1px solid #EAEAEA;
+    }
 
-    .bg-primary{
-        padding: 25px 10px;
+
+    .bg-primary,.bg-success{
+        padding:5px 10px;
     }
     .category_block li:hover a {
         color: #ffffff;
+    }
+
+    .card{
+        padding: 20px;
+        margin: 20px;
     }
     .category_block li a {
         color: #343a40;
@@ -90,7 +100,7 @@
                             <textarea class="form-control" id="message" rows="6" required></textarea>
                         </div>
                         <div class="mx-auto">
-                            <button type="submit" class="btn btn-primary text-right">Submit</button></div>
+                            <button type="submit" class="btn btn-primary text-right bg-success">Send</button></div>
                     </form>
                 </div>
             </div>
