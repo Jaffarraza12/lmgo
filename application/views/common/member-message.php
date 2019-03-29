@@ -84,7 +84,7 @@
     <div class="row w3eden">
         <div class="col-md-12">
             <div class="card">
-                <div class="card-header bg-primary text-white"><i class="fa fa-envelope"></i> Contact us.
+                <div class="card-header bg-primary text-white"><i class="fa fa-envelope"></i> INQUIRE US.
                 </div>
                 <div class="card-body">
                     <form>
