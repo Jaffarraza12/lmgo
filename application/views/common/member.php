@@ -1,7 +1,3 @@
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 
 <style>
     .form-control-borderless {
@@ -41,8 +37,20 @@
                             </form>
                             <?php if($member) { ?>
                                 <div class="alert alert-success"><i class="fa fa-check"></i> <strong><?php echo $number ?></strong> Records found.</div>
+                            <div class="membership">
+                                <div class="membership-header"></div>
+                                <div class="detail"><a >Name :<?php echo $member->name ?></a><a >Program :<?php echo $member->program ?></a></div>
+                                <div class="detail">  <img src="<?php echo base_url().'uploads/certificate/'.$member->image ?>" /></div>
+                                <div class="membership-footer">
+                                    <div class="copyright">
+                                        <a>Member No : <?php echo $member->card_number ?> </a>
+                                        <a>Validity Date :<?php echo $member->month .' '.$member->year ?></a>
+                                    </div>
+                                </div>
+                            </div>
 
-                            <div class="card-body row no-gutters align-items-center">
+
+                            <div class="card-body row no-gutters align-items-center hidden">
                                 <div class="col" style="padding: 10px;">
                                     <ul class="list-group">
                                         <li class="list-group-item"><?php echo $member->name ?></li>
