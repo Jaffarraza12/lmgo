@@ -4,6 +4,16 @@
         border: none;
     }
 
+    .alert{
+        padding: 10px 20px;
+        color: #fff;
+        margin: auto;
+        width: 50%;
+    }
+
+    .alert-danger{ background: #ff0202;}
+    .alert-success{ background: #00aa00; }
+
     .form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
         border: none;
         outline: none;
@@ -26,7 +36,7 @@
                                     </div>
                                     <!--end of col-->
                                     <div class="col">
-                                        <input name="number" style="float: left;"  value="<?php echo $number ?>" class="form-control form-control-lg form-control-borderless" type="search" placeholder="Search with Card Number ">
+                                        <input name="number" style="float: left;width: 65%;"  value="<?php echo $number ?>" class="form-control form-control-lg form-control-borderless" type="search" placeholder="Search with Card Number ">
                                     </div>
                                     <!--end of col-->
                                     <div class="col-auto">
