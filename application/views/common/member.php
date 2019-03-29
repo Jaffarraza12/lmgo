@@ -35,8 +35,8 @@
                                         <i class="fa fa-search h4 text-body"></i>
                                     </div>
                                     <!--end of col-->
-                                    <div class="col">
-                                        <input name="number" style="float: left;width: 65%;"  value="<?php echo $number ?>" class="form-control form-control-lg form-control-borderless" type="search" placeholder="Search with Card Number ">
+                                    <div class="col" style="margin: auto;width: 50%;">
+                                        <input name="number" style="float: left;width: 76%;"  value="<?php echo $number ?>" class="form-control form-control-lg form-control-borderless" type="search" placeholder="Search with Card Number ">
                                     </div>
                                     <!--end of col-->
                                     <div class="col-auto">
@@ -45,6 +45,7 @@
                                     <!--end of col-->
                                 </div>
                             </form>
+                            <br/>
                             <?php if($member) { ?>
                                 <div class="alert alert-success"><i class="fa fa-check"></i> <strong><?php echo $number ?></strong> Records found.</div>
                             <div class="membership">
