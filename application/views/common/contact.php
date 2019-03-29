@@ -13,6 +13,11 @@
     .category_block li:hover {
         background-color: #007bff;
     }
+
+
+    .bg-primary{
+        padding: 25px 10px;
+    }
     .category_block li:hover a {
         color: #ffffff;
     }
