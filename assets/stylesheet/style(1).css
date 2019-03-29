@@ -7587,6 +7587,12 @@ RARATHEME SOCIAL ICON WIDGET
         grid-column: 1 / span 1;
     }
 }
+.membership{width:700px;margin:auto;}
+.membership .membership-header{background:url("../img/imagcard-header.png") center top no-repeat;height: 100px;  }
+.membership .membership-footer{background:url("../img/imagcard-footer.png") center top no-repeat;height: 113px;  }
+.membership a {font-weight: bold;color:#01c2f8;}
+.membership .copyright{margin-left: 20%;}
+.membership .detail{width: 50%;float: left;}
 .w3eden .center-content{margin: auto;width: 65%;}
 .centerCount{margin: auto;text-align: center;width: 100%;    }
 .centerCount a{font-size: 15px;}
