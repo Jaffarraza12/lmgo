@@ -27,10 +27,7 @@
         color: #ffffff;
     }
 
-    .card{
-        padding: 20px;
-        margin: 20px;
-    }
+   
     .category_block li a {
         color: #343a40;
     }
