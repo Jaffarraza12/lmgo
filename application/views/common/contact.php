@@ -20,6 +20,11 @@
     }
 
 
+    .w3eden .btn-primary{
+        background:#247104 !important; ;
+    }
+
+
     .bg-primary,.bg-success{
         padding:5px 10px;
     }
@@ -27,7 +32,7 @@
         color: #ffffff;
     }
 
-   
+
     .category_block li a {
         color: #343a40;
     }
