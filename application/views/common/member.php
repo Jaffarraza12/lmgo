@@ -39,9 +39,10 @@
                                 <div class="alert alert-success"><i class="fa fa-check"></i> <strong><?php echo $number ?></strong> Records found.</div>
                             <div class="membership">
                                 <div class="membership-header"></div>
+                                <div class="membership-content">
                                 <div class="detail"><a >Name :<?php echo $member->name ?></a><br/><a >Program :<?php echo $member->program ?></a></div>
-                                <div class="detail">  <img src="<?php echo base_url().'uploads/certificate/'.$member->image ?>" /></div>
-                                <div class="clearfix"></div>
+                                <div class="detail">  <img width="300" src="<?php echo base_url().'uploads/certificate/'.$member->image ?>" /></div>
+                               </div>
                                 <div class="membership-footer">
                                     <div class="copyright">
                                         <a>Member No : <?php echo $member->card_number ?> </a><br/>
@@ -50,26 +51,13 @@
                                 </div>
                             </div>
 
-
-                            <div class="card-body row no-gutters align-items-center hidden">
-                                <div class="col" style="padding: 10px;">
-                                    <ul class="list-group">
-                                        <li class="list-group-item"><?php echo $member->name ?></li>
-                                        <li class="list-group-item"><?php echo $member->program ?></li>
-                                        <li class="list-group-item"><?php echo $member->card_number ?></li>
-                                        <li class="list-group-item"><?php echo $member->month .' '.$member->year ?></li>
-                                    </ul>
-                                </div>
-                                <?php if($member->image) { ?>
-                                <div class="col">
-                                        <img src="<?php echo base_url().'uploads/certificate/'.$member->image ?>" />
-                                </div>
-                                <?php } ?>
-                            </div>
-                           <?php } else if($number) {?>
+                            <?php } else if($number) {?>
                                 <div class="alert alert-danger"><i class="fa fa-check"></i> <strong><?php echo $number ?></strong> No Records found.</div>
 
                             <?php } ?>
+
+
+
                         </div>
                         <!--end of col-->
                     </div>

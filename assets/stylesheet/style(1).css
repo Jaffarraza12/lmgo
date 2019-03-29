@@ -7592,7 +7592,8 @@ RARATHEME SOCIAL ICON WIDGET
 .membership .membership-footer{background:url("../img/imagcard-footer.png") center top no-repeat;height: 113px;  }
 .membership a {font-weight: bold;color:#01c2f8;}
 .membership .copyright{margin-left: 20%;}
-.membership .detail{width: 50%;float: left;min-height: 150px;}
+.membership .detail{width: 50%;float: left;}
+.membership .membership-content{height: 350px;clear: bothl}
 .w3eden .center-content{margin: auto;width: 65%;}
 .centerCount{margin: auto;text-align: center;width: 100%;    }
 .centerCount a{font-size: 15px;}
