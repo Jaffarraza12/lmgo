@@ -2,7 +2,7 @@
 
 
 <div class="container">
-    <div class="row">
+    <div class="row w3eden">
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header bg-primary text-white"><i class="fa fa-envelope"></i> Contact us.
