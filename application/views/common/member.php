@@ -41,7 +41,7 @@
                                 <div class="membership-header"></div>
                                 <div class="membership-content">
                                 <div class="detail"><a >Name :<?php echo $member->name ?></a><br/><a >Program :<?php echo $member->program ?></a></div>
-                                <div class="detail">  <img width="300" src="<?php echo base_url().'uploads/certificate/'.$member->image ?>" /></div>
+                                <div class="detail">  <img width="150" src="<?php echo base_url().'uploads/certificate/'.$member->image ?>" /></div>
                                </div>
                                 <div class="membership-footer">
                                     <div class="copyright">
