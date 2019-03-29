@@ -119,9 +119,7 @@ class Home extends CI_Controller
             $data['page_content'] = $page_content;
             $data['type'] = "page";
 
-        } elseif (strtolower($q) == 'member') {
-
-
+        } elseif (strtolower($q) == 'register-member') {
 
             if($_POST){
                 extract($_POST);
@@ -139,6 +137,17 @@ class Home extends CI_Controller
             $data['page'] = 'common/member';
             $data['page_content'] = $page_content;
             $data['type'] = "page";
+
+        }  elseif (strtolower($q) == 'register-id') {
+            $page_content = '';
+            if($_POST){
+
+
+            }
+            $data['page'] = 'common/member-message';
+            $data['page_content'] = $page_content;
+            $data['type'] = "page";
+
 
         } elseif (strtolower($q) == 'videos') {
 
