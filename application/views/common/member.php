@@ -39,11 +39,12 @@
                                 <div class="alert alert-success"><i class="fa fa-check"></i> <strong><?php echo $number ?></strong> Records found.</div>
                             <div class="membership">
                                 <div class="membership-header"></div>
-                                <div class="detail"><a >Name :<?php echo $member->name ?></a><a >Program :<?php echo $member->program ?></a></div>
+                                <div class="detail"><a >Name :<?php echo $member->name ?></a><br/><a >Program :<?php echo $member->program ?></a></div>
                                 <div class="detail">  <img src="<?php echo base_url().'uploads/certificate/'.$member->image ?>" /></div>
+                                <div class="clearfix"></div>
                                 <div class="membership-footer">
                                     <div class="copyright">
-                                        <a>Member No : <?php echo $member->card_number ?> </a>
+                                        <a>Member No : <?php echo $member->card_number ?> </a><br/>
                                         <a>Validity Date :<?php echo $member->month .' '.$member->year ?></a>
                                     </div>
                                 </div>
