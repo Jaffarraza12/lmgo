@@ -58,7 +58,7 @@
                             <form action="<?php echo base_url() ?>index.php/Slideshow/Save" method="post" class="span12">
                                 <input type="text" class="span6" name="text" value="<?php echo $content->text ?>">
                                 <input type="text" class="span6" name="link"  value="<?php echo $content->link ?>">
-                                <input type="text" name="uid" value="<?php echo $content->id ?>">
+                                <input type="hidden" name="uid" value="<?php echo $content->id ?>">
                                 <button id="btn-del-img" type="submit" class="btn btn-block">Update</button>
                             </form>
                         
