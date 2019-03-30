@@ -12,7 +12,7 @@
     }
 
     .alert-danger{ background: #ff0202;}
-    .alert-success{ background: #00aa00; }
+    .alert-success{ background: #33a3ce; }
 
     .form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
         border: none;
