@@ -7,7 +7,7 @@
             <div class="banner-text">
                 <div class="container">
                     <div class="text-holder">
-                        <h2 class="title main_heading"> <a style="color: #fff"  <?php if ($slide->link) { echo 'href="'. $slide->link.'"'; } ?> class="slider-btn"><?php echo $slide->text ?></a></h2>
+                        <h2 class="title main_heading"> <a style="color: #fff;font-size: 1.0em;"  <?php if ($slide->link) { echo 'href="'. $slide->link.'"'; } ?> class="slider-btn"><?php echo $slide->text ?></a></h2>
                         <div class="btn-holder" style="display:none;"><a href="#" class="slider-btn">Find out more</a></div>
                     </div>
                 </div>
