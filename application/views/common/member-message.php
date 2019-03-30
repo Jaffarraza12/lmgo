@@ -89,7 +89,7 @@
                 <div class="card-body">
                     <form>
                         <div class="form-group">
-                            <label for="name">Member ID</label>
+                            <label for="name">CERTIFICATE NUMBER</label>
                             <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter ID" required>
                         </div>
                         <div class="form-group">

@@ -112,8 +112,8 @@
                 <div class="card-header bg-success text-white text-uppercase"><i class="fa fa-home"></i> Address</div>
                 <div class="card-body">
 
-                    <p>Email : email@example.com</p>
-                    <p>Tel. +33 12 56 11 51 84</p>
+                    <p>Email : info@imacmc.com</p>
+                    <p style="display: none">Tel. +33 12 56 11 51 84</p>
 
                 </div>
 

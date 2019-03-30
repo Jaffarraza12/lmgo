@@ -59,7 +59,7 @@
                        class="ow-icon-placement-left ow-button-hover" target="_blank" rel="noopener noreferrer">
 		<span>
 
-			EFQM Knowledge Base		</span>
+			 Knowledge Base		</span>
                     </a>
                 </div>
             </div>
@@ -144,7 +144,7 @@
                                                 class="odometer-digit-spacer">8</span><span
                                                 class="odometer-digit-inner"><span class="odometer-ribbon"><span
                                                         class="odometer-ribbon-inner"><span
-                                                            class="odometer-value">4</span></span></span></span></span><span
+                                                                                                                          class="odometer-value">4</span></span></span></span></span><span
                                             class="odometer-digit"><span class="odometer-digit-spacer">8</span><span
                                                 class="odometer-digit-inner"><span class="odometer-ribbon"><span
                                                         class="odometer-ribbon-inner"><span
