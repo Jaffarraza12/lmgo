@@ -23,7 +23,7 @@
 */
 
 //$config['base_url'] = 'http://localhost/lmgo/administrator/';
-$config['base_url'] = 'http://imacmc.com/demo/administrator/';
+$config['base_url'] = 'http://imacmc.com/administrator/';
 
 /*
 |--------------------------------------------------------------------------
