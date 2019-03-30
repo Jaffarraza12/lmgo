@@ -48,7 +48,7 @@ class Home extends CI_Controller
         
         $page_content = $this->MPage->view($q);
 
-        $slide_sql = "select image from slideshow order by id asc";
+        $slide_sql = "select * from slideshow order by id asc";
         $data['slideshow'] = $this->db->query($slide_sql)->result();
 
         $recent_news = $this->MPage->view("News");
