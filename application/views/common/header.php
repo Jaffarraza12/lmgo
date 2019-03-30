@@ -112,7 +112,7 @@
     <header id="masthead" class="site-header" itemscope="" itemtype="http://schema.org/WPHeader">
         <div class="header-t">
             <div class="container">
-                <div class="contact-info">
+                <div class="contact-info" style="display: none;">
                     <div class="phone">
                         <svg class="svg-inline--fa fa-mobile-alt fa-w-10" aria-hidden="true" data-prefix="fa"
                              data-icon="mobile-alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"
