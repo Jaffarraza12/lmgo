@@ -43,6 +43,25 @@ class SlideShow extends CI_Controller {
         redirect('/Slideshow', 'refresh');
     }
 
+
+    public function save()
+    {
+        $data['Languages'] = $this->MUtils->getLanguages();
+        $data['defaultLang'] = $this->MUtils->getDefaultLanguage();
+
+        $arr = array(
+            'text'=>$this->input->post('text'),
+            'link'=>$this->input->post('link')
+
+        );
+
+        $this->db->update('slideshow', $arr, 'id = '.$this->input->post('uid'));
+
+        $this->load->helper('url');
+        redirect('/Slideshow', 'refresh');
+
+    }
+
     //Show the view to edit page
     public function Replace()
     {
