@@ -59,7 +59,7 @@
                        class="ow-icon-placement-left ow-button-hover" target="_blank" rel="noopener noreferrer">
 		<span>
 
-			 Knowledge Base		</span>
+			IMAC  Knowledge Base		</span>
                     </a>
                 </div>
             </div>
