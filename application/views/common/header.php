@@ -2,10 +2,9 @@
 <!-- saved from url=(0021)https://www.efqm.org/ -->
 <html lang="en-US"
       class="csstransforms csstransforms3d csstransitions fontawesome-i2svg-active fontawesome-i2svg-complete js csstransforms csstransforms3d csstransitions">
-<head itemscope="" itemtype="http://schema.org/WebSite">
+<head itemscope="">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="profile" href="http://gmpg.org/xfn/11">
     <title>IMACMC</title>
     <link rel="dns-prefetch" href="https://fonts.googleapis.com/">
     <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/site.css" type="text/css" media="all">
