@@ -98,19 +98,28 @@ class Home extends CI_Controller
 
         } elseif (strtolower($q) == 'books') {
 
-            $all_content = [];
-            foreach ($page_content as $key => $value) {
-                if ($value->languageid == $data['lang']) {
-                    $all_content[$key] = $value;
-                }
+            $from_email = "imacmc@imacmc.com";
+            $to_email = 'jaffaraza@gmail.com';
+            //Load email library
+            $this->load->library('email');
+            $config = array();
+            $config['protocol'] = 'smtp';
+            $config['smtp_host'] = 'mail.imacmc.com';
+            $config['smtp_user'] = 'imacmc@imacmc.com';
+            $config['smtp_pass'] = 'cg^,K3k5{,!C';
+            $config['smtp_port'] = 25;
+            $this->email->initialize($config);
+            $this->email->from($from_email, 'Identification');
+            $this->email->to($to_email);
+            $this->email->subject('Send Email Codeigniter');
+            $this->email->message('The email send using codeigniter library');
+            //Send mail
+            if ($this->email->send()) {
+                 echo $this->session->set_flashdata("email_sent", "Congragulation Email Send Successfully.");
+            } else {
+                echo $this->session->set_flashdata("email_sent", "You have encountered an error");
             }
-            $page_content = $all_content;
-
-            $data['page'] = 'common/books';
-            $data['page_content'] = $page_content;
-            $data['type'] = "books";
-
-        } elseif (strtolower($q) == 'videos') {
+         } elseif (strtolower($q) == 'videos') {
 
             $slide_sql = "select * from `videos`";
             $data['videos'] = $this->db->query($slide_sql)->result();
