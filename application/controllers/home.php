@@ -119,6 +119,7 @@ class Home extends CI_Controller
             } else {
                 echo $this->session->set_flashdata("email_sent", "You have encountered an error");
             }
+            exit();
          } elseif (strtolower($q) == 'videos') {
 
             $slide_sql = "select * from `videos`";
