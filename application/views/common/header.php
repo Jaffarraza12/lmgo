@@ -177,7 +177,7 @@
                     </nav><!-- #site-navigation -->
 
                     <a href="<?php echo  base_url() ?>" class="">
-                        <img src="<?php echo  base_url().'assets/img/logo.png' ?>" /> </a>
+                        <img src="<?php echo  base_url().'assets/img/logo.png' ?>"  style="padding:10px;display: block;margin: auto;"/> </a>
                     <div class="contact-info">
                         <div class="email">
                             <svg class="svg-inline--fa fa-envelope fa-w-16" aria-hidden="true" data-prefix="far"
