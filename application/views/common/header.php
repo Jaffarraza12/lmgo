@@ -179,24 +179,6 @@
                     <a href="<?php echo  base_url() ?>" class="">
                         <img src="<?php echo  base_url().'assets/img/logo.png' ?>" /> </a>
                     <div class="contact-info">
-                        <div class="phone">
-                            <svg class="svg-inline--fa fa-mobile-alt fa-w-10" aria-hidden="true" data-prefix="fa"
-                                 data-icon="mobile-alt" role="img" xmlns="http://www.w3.org/2000/svg"
-                                 viewBox="0 0 320 512" data-fa-i2svg="">
-                                <path fill="currentColor"
-                                      d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm112-108c0 6.6-5.4 12-12 12H60c-6.6 0-12-5.4-12-12V60c0-6.6 5.4-12 12-12h200c6.6 0 12 5.4 12 12v312z"></path>
-                            </svg><!-- <i class="fa fa-mobile-phone"></i> -->
-                            <a href="tel:3227753511" class="tel-link">+32 2 775 3511</a>
-                        </div>
-                        <div class="address" itemscope="" itemtype="http://schema.org/PostalAddress">
-                            <svg class="svg-inline--fa fa-map-marker-alt fa-w-12" aria-hidden="true" data-prefix="fa"
-                                 data-icon="map-marker-alt" role="img" xmlns="http://www.w3.org/2000/svg"
-                                 viewBox="0 0 384 512" data-fa-i2svg="">
-                                <path fill="currentColor"
-                                      d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path>
-                            </svg><!-- <i class="fa fa-map-marker"></i> -->
-                            <address>Avenue des Olympiades 2, 1140 Brussels</address>
-                        </div>
                         <div class="email">
                             <svg class="svg-inline--fa fa-envelope fa-w-16" aria-hidden="true" data-prefix="far"
                                  data-icon="envelope" role="img" xmlns="http://www.w3.org/2000/svg"
